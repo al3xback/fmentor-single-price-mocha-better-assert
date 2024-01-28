@@ -39,8 +39,8 @@ describe('DOM', () => {
 		assert(isClassExist);
 	});
 
-	it("should have a 'card__mark' class used inside the DOM", () => {
-		const isClassExist = isAClassExist('card__mark');
+	it("should have a 'card__subtitle' class used inside the DOM", () => {
+		const isClassExist = isAClassExist('card__subtitle');
 		assert(isClassExist);
 	});
 
